@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es6"],
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "types": [
+      "node",
+      "chai",
+      "mocha",
+      "reflect-metadata"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "./dist"
+  ]
+}
