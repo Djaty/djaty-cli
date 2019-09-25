@@ -3,6 +3,9 @@
 # Installation
 - `$ npm install -g @djaty/djaty-cli`
 
+### Prerequisites
+We support node version `6.x.x` or higher.
+
 ## SourceMap files
 Upload sourcemap files to allow Djaty to de-obfuscate your JavaScript stack traces
 
