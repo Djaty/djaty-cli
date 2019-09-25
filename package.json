@@ -36,6 +36,7 @@
     "mocha": "^3.1.2",
     "natives": "^1.1.6",
     "ora": "3.1.0",
+    "please-upgrade-node": "^3.2.0",
     "reflect-metadata": "^0.1.12",
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
@@ -53,6 +54,9 @@
   "preferGlobal": true,
   "bin": {
     "djaty-cli": "./bin/djaty-cli"
+  },
+  "engines": {
+    "node": ">=6"
   },
   "devDependencies": {},
   "repository": {

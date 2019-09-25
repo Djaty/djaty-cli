@@ -1,4 +1,11 @@
 #!/usr/bin/env node
+
+// tslint:disable-next-line no-require-imports
+const pkg = require('./../package.json');
+
+// tslint:disable-next-line no-require-imports
+require('please-upgrade-node')(pkg);
+
 import {djaty} from '@djaty/djaty-nodejs';
 import {nodejsAgentConfig} from './config/nodejsAgentConfig';
 
